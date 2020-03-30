@@ -1,0 +1,42 @@
+.container-name{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 10%;
+    background-image: linear-gradient(steelBlue,lightskyblue);
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 30vh;
+}
+
+.name-heading{
+    font-size: 42px;
+    background-color: lightskyblue;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.name{
+    margin: 20px;
+    padding: 10px;
+    font-size: 34px;
+    font-weight: 700;
+    background-color: mediumaquamarine;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition-duration: 400ms;
+}
+
+.name:hover{
+    background-color: white;
+    color: mediumaquamarine;
+    transform: scale(1.1,1.1);
+}
+
+@media screen and (max-width:600px){
+    .container-name{
+        width: 80%;
+    }
+}
